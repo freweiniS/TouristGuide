@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+      <nav>
+          <div class="nav-container">
+              <a href="index.html" class="logo">E.T.Guide</a>
+              <div class="hb-button">Menu</div>
+              <ul class="nav-dropdown">
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i>Added-Plans</a></li>
+                  <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
+                   <ul class="nav-dropdown-1">
+                      <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
+                      <li><a href="#">Your Account</a></li>
+                      <li><a href="#">Your Plans</a></li>
+                      <li><a href="#">Sign Out</a></li>
+                   </ul>
+                  </a></li>
+              </ul>
+              <ul class="nav-menu">
+                  <li><a href="Cities.html">Cities</a></li>
+                      <li><a href="blog.html">Must-Visit</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+    <!-- Modal for Sign In and Sign Up -->
+    <div id="modalwindow">
+        <div class="modal-box">
+            <p class="cls-p"><a href="#close" class="cls-modal">X</a></p>
+            <div class="left-box">
+               <h1>Sign In</h1>
+               <form id="sign-in">
+                    <a href="" class="fb-btn"><i class="fab fa-facebook-f"></i>Continue With Facebook</a>
+                    <a href="" class="google-btn"><i class="fab fa-google-plus-g"></i>Continue With Google</a>
+                   <p class="Or">Or</p>
+                   <input type="Email" placeholder="Email">
+                   <input type="text" placeholder="Password">
+                   <button type="submit" value="submit">Sign In</button>
+               </form>
+            </div>
+            <div class="right-box">
+                <h1>Sign Up</h1>
+                <form id="sign-up">
+                   <input type="text" placeholder="First Name">
+                   <input type="text" placeholder="Last Name">
+                   <input type="Email" placeholder="Email">
+                   <input type="text" placeholder="Password">
+                   <button type="submit" value="submit">Sign Up</button>
+                </form>
+            </div>
+            <p class="fyp"><a href="">Forgot Your Password?</a></p>
+            <p class="terms">Creating an account means you agree with<a href="">Terms of Service</a></p>
+        </div>
+    </div>
+
+    <!-- section empty -->
+    <section id="empty"></section>
+
+    <!-- section bodymovin -->
+    <section id="bodymovin">
+
+        <div id="bm"></div>
+    </section>
+
+    <!-- section tours -->
+    <section id="tours">
+        <h1>Tour Historical Places</h1>
+        <div class="tours-container">
+            <div class="box-tour">
+                <img src="img\Balaw_Kalaw.JPG" width="300" height="300" alt="Computer Hope">
+                <div class="box-text">
+
+                    <a href="tour1.html">Balaw-Kalaw</a>
+                </div>
+            </div>
+
+                <div class="box-tour">
+                    <img src="img\Balaw_Kalaw.JPG" width="300" height="300" alt="Computer Hope">
+                    <div class="box-text">
+
+                        <a href="tour4.html">Metera</a>
+                    </div>
+                </div>
+
+
+                    <div class="box-tour">
+                        <img src="img\Kohaito.JPG" width="300" height="300" alt="Computer Hope">
+                        <div class="box-text">
+
+                            <a href="tour3.html">Qohaito</a>
+                        </div>
+                    </div>
+
+                        <div class="box-tour">
+                            <img src="img\Balaw_Kalaw.JPG" width="300" height="300" alt="Computer Hope">
+                            <div class="box-text">
+
+                                <a href="tour1.html">Tekondae</a>
+                            </div>
+                        </div>
+                        <div class="box-tour">
+                            <img src="img\adulis.JPG" width="300" height="300" alt="Computer Hope">
+                            <div class="box-text">
+
+                                <a href="tour2.html">Adulis</a>
+                            </div>
+                        </div>
+                      </div>
+                  </section>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ohrid Travel Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+      <nav>
+          <div class="nav-container">
+              <a href="index.html" class="logo">O.T.Guide</a>
+              <div class="hb-button">Menu</div>
+              <ul class="nav-dropdown">
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i>Basket</a></li>
+                  <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
+                   <ul class="nav-dropdown-1">
+                      <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
+                      <li><a href="#">Your Account</a></li>
+                      <li><a href="#">Your Booking</a></li>
+                      <li><a href="#">Sign Out</a></li>  
+                   </ul>
+                  </a></li>
+              </ul>
+              <ul class="nav-menu">
+                  <li><a href="tours.html">Tours</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="blog.html" class="active-nav">Blog</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  
+    <!-- Modal for Sign In and Sign Up -->
+    <div id="modalwindow">
+        <div class="modal-box">
+            <p class="cls-p"><a href="#close" class="cls-modal">X</a></p>
+            <div class="left-box">
+               <h1>Sign In</h1>
+               <form id="sign-in">
+                    <a href="" class="fb-btn"><i class="fab fa-facebook-f"></i>Continue With Facebook</a>
+                    <a href="" class="google-btn"><i class="fab fa-google-plus-g"></i>Continue With Google</a>
+                   <p class="Or">Or</p>
+                   <input type="Email" placeholder="Email">
+                   <input type="text" placeholder="Password">
+                   <button type="submit" value="submit">Sign In</button>
+               </form>
+            </div>
+            <div class="right-box">
+                <h1>Sign Up</h1>
+                <form id="sign-up">
+                   <input type="text" placeholder="First Name">
+                   <input type="text" placeholder="Last Name">
+                   <input type="Email" placeholder="Email">
+                   <input type="text" placeholder="Password">
+                   <button type="submit" value="submit">Sign Up</button>
+                </form>
+            </div>
+            <p class="fyp"><a href="">Forgot Your Password?</a></p>
+            <p class="terms">Creating an account means you agree with<a href="">Terms of Service</a></p>
+        </div>
+    </div>
+  
+    <!-- section empty -->
+    <section id="empty"></section>
+       
+    <!-- section blog -->
+    <section id="blog">
+        <h1>Ohrid Travel Guide Blog</h1>
+        <div class="blog-container">
+            <div class="blog-box">
+                <img src="img/st-john-kaneo.jpg">
+                <div class="blog-box-container">
+                    <h1>St.John Kaneo</h1>
+                    <p>Saint John the Theologian, Kaneo (Macedonian: Свети Јован Канео...</p>
+                    <time>19.09.2018</time>
+                    <a href="blog1.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/sv.Naum300.jpg">
+                <div class="blog-box-container">
+                    <h1>St.Naum</h1>
+                    <p>The Monastery of Saint Naum (Macedonian: Манастир „Свети Наум“)...</p>
+                    <time>18.09.2018</time>
+                    <a href="blog2.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/Sv.Kliment.jpg">
+                <div class="blog-box-container">
+                    <h1>St.Kliment</h1>
+                    <p>Plaošnik or simply Plaoš (Macedonian: Плаошник, Плаош)...</p>
+                    <time>17.09.2018</time>
+                    <a href="blog3.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/Samoil300.jpg">
+                <div class="blog-box-container">
+                    <h1>Samuel's Fortress</h1>
+                    <p>Samuel's Fortress (Macedonian: Самуилова тврдина)is a fortress ...</p>
+                    <time>16.09.2018</time>
+                    <a href="blog4.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/Anticki300.jpg">
+                <div class="blog-box-container">
+                    <h1>Ancient Theatre</h1>
+                    <p>The Ancient theatre of Ohrid of the Hellenistic period is...</p>
+                    <time>10.08.2018</time>
+                    <a href="blog5.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/IconGalery300.jpg">
+                <div class="blog-box-container">
+                    <h1>Icon Gallery</h1>
+                    <p>The object of the Icon Gallery-Ohrid is located in...</p>
+                    <time>7.08.2018</time>
+                    <a href="blog6.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/Robevi300.jpg">
+                <div class="blog-box-container">
+                    <h1>Robevi House</h1>
+                    <p>The Robevi House is a famous and historic building in Ohrid...</p>
+                    <time>5.08.2018</time>
+                    <a href="blog7.html">Read More</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="img/Sv.Sofia300.jpg">
+                <div class="blog-box-container">
+                    <h1>Visit st.Sofia</h1>
+                    <p>The Church of St. Sophia (Macedonian: Црква Света ...</p>
+                    <time>02.08.2018</time>
+                    <a href="blog8.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-container">
+        <ul>
+            <li><h1>Folow Us</h1></li>
+            <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+            <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+            <li><a href=""><i class="fab fa-twitter-square"></i>Twiter</a></li>
+        </ul>
+        <ul>
+            <li><h1>Contact Us</h1></li>
+            <li><a href=""><i class="fas fa-phone-volume"></i>+123 456 789</a></li>
+            <li><a href=""><i class="far fa-envelope"></i>info@ohridtravelguide.org</a></li>
+            <li><a href=""><i class="fas fa-map-marker-alt"></i>Ohrid 777</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright 2018&copy; All rights reserved - Design & Developed by <a href="" class="footer-link">Gjoko Bulovski</a></p>
+       </div>
+    </footer>
+    
+    <!-- Back to top -->
+    <a href="#" id="scroll-top"><i class="fas fa-angle-up"></i></a>
+    
+        <script type="text/javascript">
+          <!-- Menu -->
+          $(document).ready(function() {
+              $('.hb-button').on('click', function() {
+                $('nav ul.nav-menu').toggleClass('show');
+              });
+          });
+        
+          <!-- back to top -->
+          $(function () {  
+              var scrollButton = $('#scroll-top');
+              $(window).scroll(function() {
+                $(this).scrollTop() >= 400 ? scrollButton.show() : scrollButton.hide();
+              });
+          });
+    </script>
+</body>
+</html>
