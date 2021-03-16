@@ -996,6 +996,54 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
     align-items: center;
 }
 /** modal for check out form **/
+#impero{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/CIMPERO.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+position: relative;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+#capitol{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/Caitol.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+position: relative;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+#odion{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/CinemaOdion.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+position: relative;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+#roma{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/CinemaRoma.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+position: relative;
+display: grid;
+justify-items: center;
+align-items: center;
+}
 #modal-check1 {
     position: fixed;
     z-index: 100;
