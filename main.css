@@ -1894,6 +1894,9 @@ align-items: center;
     opacity: 1;
     pointer-events: auto;
 }
+p{
+  text-align:left;
+}
 .check-container {
     width: 60%;
     background: var(--light);
