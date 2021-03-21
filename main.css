@@ -28,6 +28,9 @@ a {
 #empty {
     margin-top: 63px;
 }
+#fw-light{
+  background-: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) , url(img/shore.PNG);
+}
 /** Navigation **/
 header {
     width: 100%;
@@ -491,6 +494,14 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
     color: var(--primary);
     margin-top: -20px;
 }
+.ERI{
+  width: 80%;
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  color: YELLOW;
+  margin-top: -20px;
+}
 .blog-box-container h1 {
     margin: 0px;
 }
@@ -523,7 +534,7 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
 #footer {
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) , url(img/st-john-kaneo1920.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) , url(img/shore.PNG);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -985,6 +996,18 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
 }
 #tour10 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/lapidarium1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+    #eritrea {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/Massawa2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

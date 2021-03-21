@@ -1,160 +1,253 @@
 
+    <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>E.T.G</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="carousel.css" rel="stylesheet" type="text/css">
+<link href="carousel.rtl.css" rel="stylesheet" type="text/css">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Optional JavaScript; choose one of the two! -->
 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Eritrea Tourist Guide</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="main.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+-->
 
 
-    </head>
-    <body class = "home">
-        <!-- header -->
-        <header>
-          <nav>
-              <div class="nav-container">
-                  <a href="index.html" class="logo">E.T.Guide</a>
-                  <div class="hb-button">Menu</div>
-                  <ul class="nav-dropdown">
-                      <li><a href="#"><i class="fas fa-shopping-cart"></i>Added-Plans</a></li>
-                      <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
-                       <ul class="nav-dropdown-1">
-                          <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
-                          <li><a href="#">Your Account</a></li>
-                          <li><a href="#">Your Booking</a></li>
-                          <li><a href="#">Sign Out</a></li>
-                       </ul>
-                      </a></li>
-                  </ul>
-                  <ul class="nav-menu">
-                      <li><a href="Cities.html" class="active-nav">Cities</a></li>
+    <!-- Bootstrap core CSS -->
 
-                      <li><a href="contact-us.html">Contact Us</a></li>
-                  </ul>
-              </div>
-          </nav>
-        </header>
-
-        <!-- Modal for Sign In and Sign Up -->
-        <div id="modalwindow">
-            <div class="modal-box">
-                <p class="cls-p"><a href="#close" class="cls-modal">X</a></p>
-                <div class="left-box">
-                   <h1>Sign In</h1>
-                   <form id="sign-in">
-                        <a href="" class="fb-btn"><i class="fab fa-facebook-f"></i>Continue With Facebook</a>
-                        <a href="" class="google-btn"><i class="fab fa-google-plus-g"></i>Continue With Google</a>
-                       <p class="Or">Or</p>
-                       <input type="Email" placeholder="Email">
-                       <input type="text" placeholder="Password">
-                       <button type="submit" value="submit">Sign In</button>
-                   </form>
-                </div>
-                <div class="right-box">
-                    <h1>Sign Up</h1>
-                    <form id="sign-up">
-                       <input type="text" placeholder="First Name">
-                       <input type="text" placeholder="Last Name">
-                       <input type="Email" placeholder="Email">
-                       <input type="text" placeholder="Password">
-                       <button type="submit" value="submit">Sign Up</button>
-                    </form>
-                </div>
-                <p class="fyp"><a href="">Forgot Your Password?</a></p>
-                <p class="terms">Creating an account means you agree with<a href="">Terms of Service</a></p>
-            </div>
-        </div>
+  </head>
 
 
+  <body>
 
+    <header>
+      <nav>
+          <div class="nav-container">
+              <a href="index.html" class="logo">E.T.Guide</a>
+              <div class="hb-button">Menu</div>
+              <ul class="nav-dropdown">
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i>Added-Plans</a></li>
+                  <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
+                   <ul class="nav-dropdown-1">
+                      <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
+                      <li><a href="#">Your Account</a></li>
+                      <li><a href="#">Your Booking</a></li>
+                      <li><a href="#">Sign Out</a></li>
+                   </ul>
+                  </a></li>
+              </ul>
+              <ul class="nav-menu">
+                  <li><a href="Cities.html" class="active-nav">Cities</a></li>
 
-        <section id="empty"></section>
-
-        <!-- section blog1 -->
-        <section id="single-blog">
-            <div class="single-blog-container">
-                <h1>WELCOME TO ERITREA</h1>
-
-
-                <img class="img-single-blog" src="img/massawa2.JPG">
-                <p class="p-single-blog">A richly historical land with some of the best cuisine you will ever taste, scenery from beaches to mountains and the great city of İstanbul
-                    </p>
-                    <div class="box-text">
-
-                        <a href="tour.html">Read More</a>
-                    </div>
-
-                 <!-- <div class="social-share-blog">
-                     <ul>
-                        <li><h1>Share This</h1></li>
-                        <li><a href="" class="f-icon"><i class="fab fa-facebook"></i>Facebook</a></li>
-                        <li><a href="" class="t-icon"><i class="fab fa-twitter-square"></i>Twiter</a></li>
-                     </ul>
-                 </div>
-                 <div class="comment-text-block">
-                     <textarea class="comment-text" type="text" placeholder="Add a comment..." rows="5" ></textarea>
-                     <button  type="submit" value="submit">SEND</button>
-                 </div> -->
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-          <div class="footer-container">
-            <ul>
-                <li><h1>Folow Us</h1></li>
-                <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
-                <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
-                <li><a href=""><i class="fab fa-twitter-square"></i>Twiter</a></li>
-            </ul>
-            <ul>
-                <li><h1>Contact Us</h1></li>
-                <li><a href=""><i class="fas fa-phone-volume"></i>07951505621</a></li>
-                <li><a href=""><i class="far fa-envelope"></i>frena5@yahoo.com</a></li>
-
-            </ul>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
           </div>
-          <div class="footer-bottom">
-            <p>Copyright 2018&copy; All rights reserved - Design & Developed by <a href="" class="footer-link">Freweini Solomon</a></p>
-           </div>
-        </footer>
+      </nav>
+    </header>
 
-        <!-- Back to top -->
-        <a href="#" id="scroll-top"><i class="fas fa-angle-up"></i></a>
+<main>
 
-            <script type="text/javascript">
-              <!-- Menu -->
-              $(document).ready(function() {
-                  $('.hb-button').on('click', function() {
-                    $('nav ul.nav-menu').toggleClass('show');
-                  });
-              });
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/massawa2.jpg" alt="First slide">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>WELCOME TO ERITREA</h1>
+            <p>Eritrea offers an untamed landscape of astonishing diversity, an interior rich in historical remains, a coastal gateway to some outstanding diving spots, and a broad, hospitable welcome.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/unesco.PNG" alt="First slide">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>UNESCO World Heritage Sites.</h1>
+            <p>
+
+            </p>
+            <p >Asmara, the capital of Eritrea has officially been labeled a World Heritage site by the United Nations Education, Social and Cultural Organization (UNESCO).</p>
+            <p><a class="btn btn-lg btn-primary" href="Asmara.html">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/bird.jpg" alt="First slide">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 >Wildlife.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src = "img/Balaw_Kalaw.jpg">
+
+        <h2>Historical Places</h2>
+        <p>Eritrea has one of the highest
+densities of archaeological sites known in the African
+continent.</p>
+        <p><a class="btn btn-secondary" href="historical.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src = "img\landscape.jpg">
+
+        <h2>landscape</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src = "img\agency.jpg">
+
+        <h2>Travel Agencies</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Expo <span class="text-muted">The annual Festival Eritrea </span></h2>
+        <p class="lead">Eritrea has many Christian holidays, Muslim holiday and National holidays</p>
+        <p>
+          Some of the national holidays are:
+        </p>
+        <p>
+          Festival Eritrea Expo(one week) July 29th
+        </p>
+        <p>
+          Independence Day(one week) May 24th
+        </p>
+        <p>
+           Martyrs Day June 20th
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/festival.jpg" />
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Cuisine <span class="text-muted">Eritrean Restaurants Serve both traditional and Italian foods </span></h2>
+<p>
+  The main traditional food in Eritrean cuisine is tsebhi (stew), served with injera (flatbread made from teff, wheat, or sorghum
+</p>
+        <p class="lead"> Italian dishes are also very popular in Eritrea. Most restaurants serve lasagna, spaghetti and other pasta's. There are various Pizza restaurants in Asmara.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/erifood.PNG" />
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Culture <span class="text-muted"></span></h2>
+        <p class="lead">Eritrea has 9 ethinic groups. Ethnic distinctions are evident in the dances and the kinds of music that each group produces</p>
+        <p>
+          Religion is a mix of many beliefs,majority of the population practices Christian or Muslim faith.
+        </p>
+        <p>
+          One of the most interesting aspects of the Eritrean culture is the traditional coffee ceremony
+        </p>
+      </div>
+      <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/culture.jpg" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
 
 
 
 
-        <!-- Back to top -->
-        <a href="#" id="scroll-top"><i class="fas fa-angle-up"></i></a>
+</main>
+<!-- FOOTER -->
 
-            <script type="text/javascript">
-              <!-- Menu -->
-              $(document).ready(function() {
-                  $('.hb-button').on('click', function() {
-                    $('nav ul.nav-menu').toggleClass('show');
-                  });
-              });
+   <footer id="footer">
+     <div class="footer-container">
+       <ul>
+           <li><h1>Folow Us</h1></li>
+           <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+           <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+           <li><a href=""><i class="fab fa-twitter-square"></i>Twiter</a></li>
+       </ul>
+       <ul>
+           <li><h1>Contact Us</h1></li>
+           <li><a href=""><i class="fas fa-phone-volume"></i>07951505621</a></li>
+           <li><a href=""><i class="far fa-envelope"></i>frena5@yahoo.com</a></li>
 
-              <!-- back to top -->
-              $(function () {
-                  var scrollButton = $('#scroll-top');
-                  $(window).scroll(function() {
-                    $(this).scrollTop() >= 400 ? scrollButton.show() : scrollButton.hide();
-                  });
-              });
-        </script>
-    </body>
-    </html>
+       </ul>
+     </div>
+     <div class="footer-bottom">
+       <p>Design & Developed by <a href="" class="footer-link">Freweini Solomon</a></p>
+      </div>
+   </footer>
+
+
+   </script>
+ </body>
+ </html>
