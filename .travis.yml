@@ -11,5 +11,6 @@ node_js:
     deploy:
       provider: pages
       skip-cleanup: truegithub-token: $GITHUB_TOKEN
+      local_dir: build
       on:
-        branch: master        
+        branch: master
