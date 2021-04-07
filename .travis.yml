@@ -1,4 +1,9 @@
 language: node_js
 node_js:
   - "stable"
+env: 
+-NODE_ENV= "DEVELOPMENT"
+-NODE_ENV = "PRODUCTION";SESSION_SECRET="la li"
+services:
+  - sqlite
 script: gulp travis
