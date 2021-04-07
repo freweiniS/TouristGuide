@@ -1,9 +1,16 @@
 language: node_js
 node_js:
-  - "stable"
-env: 
--NODE_ENV= "DEVELOPMENT"
--NODE_ENV = "PRODUCTION";SESSION_SECRET="la li"
-services:
-  - sqlite
-script: gulp travis
+  - 14.15.4
+  cache: npm
+    install:
+      -npm ci
+      script:
+        - npm test
+        - run build
+
+    deploy:
+      provider: pages
+      skip-cleanup: truegithub-token: $GITHUB_TOKEN
+      on:
+        branch gh-pages
+        
