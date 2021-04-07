@@ -1,48 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Eritrea Tourist Guide</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="google-signin-client_id" content="410396475601-rrs3qn8379rdu6vga931l1n86gmgqt6c.apps.googleusercontent.com">
+   <link href="main.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <script src="https://apis.google.com/js/platform.js" async defer> </script>
+       <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"> </script>
+               <script src="index.js" > </script>
+            
 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Eritrea Tourist Guide</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="main.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
-    </head>
-    <body class = "home">
+     </head>
+  <body class = "home">
         <!-- header -->
-        <header>
-          <nav>
-              <div class="nav-container">
-                  <a href="index.html" class="logo">E.T.Guide</a>
-                  <div class="hb-button">Menu</div>
-                  <ul class="nav-dropdown">
-                      <li><a href="#"><i class="fas fa-shopping-cart"></i>Added-Plans</a></li>
-                      <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
-                       <ul class="nav-dropdown-1">
-                          <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
-                          <li><a href="#">Your Account</a></li>
-                          <li><a href="#">Your Booking</a></li>
+      <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">E.T.Guide</a>
+                <div class="hb-button">Menu</div>
+                <ul class="nav-dropdown">
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i>Added-Plans</a></li>
+                    <li><a href="#">Sign In<i class="far fa-user-circle"></i><i class="fas fa-sort-down"></i>
+                     <ul class="nav-dropdown-1">
+                        <li><a href="#modalwindow" class="sign-in">Sign In</a></li>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Your Booking</a></li>
                           <li><a href="#">Sign Out</a></li>
                        </ul>
                       </a></li>
                   </ul>
                   <ul class="nav-menu">
                       <li><a href="Cities.html" class="active-nav">Cities</a></li>
-
-                      <li><a href="contact-us.html">Contact Us</a></li>
-                  </ul>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
               </div>
           </nav>
-        </header>
+      </header>
 
         <!-- Modal for Sign In and Sign Up -->
-        <div id="modalwindow">
-            <div class="modal-box">
-                <p class="cls-p"><a href="#close" class="cls-modal">X</a></p>
+      <div id="modalwindow">
+          <div class="modal-box">
+              <p class="cls-p"><a href="#close" class="cls-modal">X</a></p>
                 <div class="left-box">
                    <h1>Sign In</h1>
                    <form id="sign-in">
@@ -69,56 +72,62 @@
             </div>
         </div>
 
-        <section id="empty"></section>
 
-        <!-- section empty -->
       <section id="empty"></section>
       <section id="single-blog">
-          <div class="single-blog-container">
-  <div class="right-box" >
-     <h1>PLAN</h1>
-     <p>Select date and time </p>
-     <form id="plan" >
-        <input type="text" id ="place" placeholder="Place Name">
+        <div class="g-signin2" data-onsuccess="onSignIn">
+        </div>
 
-       <input type="date" id="planday" name="planday">
-      <input type="time" id="appt" name="appt">
- <button type="submit" value="submit">Submit</button>
-    </form>
- </div>
-</div>
+
+<div class =  "data">
+
+
+
+            <div class="modal-box">
+
+                  <div >
+     <h1>PLAN</h1>
+     <p class="fyp">Select date and time </p>
+    <form action = "plan_created" id="plan "  method = "post">
+     <p>
+       <label for="place" >Place Name</label>
+      <input type="text" class="submitField" name = "placename" placeholder="Place Name">
+        </p>
+        <p>
+          <label for="plandate" >Date</label>
+          <input type="date" class="submitField" name="plandate">
+          </p>
+  <p>
+     <label for="plantime" >Time</label>
+    <input type="time" class="submitField"  name="plantime">
+      </p>
+<button type = "submit"  id = 'submitform'>Submit</button>
+
+  </form>
+
+  </div>
+   </div>
+   </div>
 </section>
 
-<!-- Footer -->
- <footer id="footer">
- <div class="footer-container">
- <ul>
-     <li><h1>Folow Us</h1></li>
-     <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
-     <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
-     <li><a href=""><i class="fab fa-twitter-square"></i>Twiter</a></li>
- </ul>
- <ul>
-    <li><h1>Contact Us</h1></li>
-    <li><a href=""><i class="fas fa-phone-volume"></i>07951505621</a></li>
-    <li><a href=""><i class="far fa-envelope"></i>frena5@yahoo.com</a></li>
 
-</ul>
+<!-- Footer -->
+<footer id="footer">
+<div class="footer-container">
+  <ul>
+      <li><h1>Folow Us</h1></li>
+      <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+        <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+                <li><a href=""><i class="fab fa-twitter-square"></i>Twiter</a></li>
+  </ul>
+  <ul>
+      <li><h1>Contact Us</h1></li>
+      <li><a href=""><i class="fas fa-phone-volume"></i>07951505621</a></li>
+      <li><a href=""><i class="far fa-envelope"></i>frena5@yahoo.com</a></li>
+  </ul>
 </div>
 <div class="footer-bottom">
-<p>Copyright 2021&copy; All rights reserved - Design & Developed by <a href="" class="footer-link">Freweini Solomon</a></p>
-   </div>
-</footer>
-  <a href="#" id="scroll-top"><i class="fas fa-angle-up"></i></a>
-  <script src="https://code.jquery.com/jquery-3.3.1.js"
-integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-crossorigin="anonymous">
-</script>
-
-
-<script type="text/javascript" src="index.js" charset="utf-8">
-
-</script>
-
-</body>
+  <p>Design & Developed by <a href="" class="footer-link">Freweini Solomon</a></p></div>
+     </footer>
+   </body>
 </html>

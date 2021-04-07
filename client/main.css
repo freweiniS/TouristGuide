@@ -11,6 +11,84 @@
 html {
     scroll-behavior: smooth;
 }
+.data {
+  display: none;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=time], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #00ADDE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #00ADDE;
+}
+#submitform{
+  width: 100%;
+  background-color: #00ADDE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submitform:hover {
+  background-color: green;
+}
+#viewform{
+  width: 100%;
+  background-color: #00ADDE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#viewform:hover {
+  background-color: green;
+}
+.planform{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -124,6 +202,8 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
     margin: 0;
     padding: 0;
 }
+
+
 .sign-in {
     display: grid;
     text-align: center;
@@ -178,7 +258,7 @@ nav .nav-dropdown li:hover .nav-dropdown-1  {
 }
 .modal-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+  
     grid-gap: 20px;
     background: var(--backround-c);
     position: relative;
