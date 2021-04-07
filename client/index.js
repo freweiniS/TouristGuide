@@ -12,12 +12,12 @@
   const ul = document.createElement('ul');
 
   const name = document.createElement('li');
-  const question = document.createElement('li');
-  const favouriteColour = document.createElement('li');
+  const SelectedDate = document.createElement('li');
+  const SelectedTime = document.createElement('li');
 
   name.textContent = 'Place-Name:' + item.placename;
-  question.textContent = 'Date:' + item.plandate;
-  favouriteColour.textContent = 'Time:' + item.plantime;
+SelectedDate.textContent = 'Date:' + item.plandate;
+  SelectedTime.textContent = 'Time:' + item.plantime;
 
   ul.appendChild(name);
   ul.appendChild(question);
@@ -43,3 +43,4 @@ var  profile = googleUser.getBasicProfile();
     const data = document.querySelector('.data')
     data.style.display = 'block';
   }
+exports.getData = getData;
