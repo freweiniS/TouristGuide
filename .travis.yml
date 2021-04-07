@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 14.15.4
+  cache: npm
+    install:
+      -npm ci
+      script:
+        - npm test
+        - run build
+
+    deploy:
+      provider: pages
+      skip-cleanup: truegithub-token: $GITHUB_TOKEN
+      on:
+        branch: master        
