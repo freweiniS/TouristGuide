@@ -1,1 +1,0 @@
-const { getData} = require('./index');
